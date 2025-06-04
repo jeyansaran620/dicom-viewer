@@ -27,6 +27,15 @@ function SeriesPanel({ seriesList, onSelect }) {
         <h2 className="text-base font-semibold text-zinc-300">Preview</h2>
       </div>
 
+      {
+        seriesList.length === 0 ? 
+        <div className="h-[100%] flex items-center justify-center">
+         <p className=" text-center p-3 bg-zinc-800">
+                Please select a folder using the top right most button to load images...
+              </p> 
+              </div>: null
+      }
+
       <div className="flex-1 overflow-y-auto px-4 py-4">
         <div className="flex flex-col items-center space-y-4">
           {seriesList.map((series, index) => (

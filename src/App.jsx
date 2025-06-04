@@ -37,7 +37,7 @@ function App() {
               await navigator.clipboard.write([
                 new ClipboardItem({ [blob.type]: blob }),
               ]);
-              setToast("📸 ViewerGrid screenshot copied to clipboard!");
+              setToast("📸 Screenshot of the viewer copied to clipboard!");
             } catch (err) {
               console.error(err);
               setToast("❌ Screenshot failed");
@@ -69,7 +69,7 @@ function App() {
 
       <div className="flex flex-col flex-1 h-full">
         <div className="h-14 px-4 flex items-center justify-between bg-zinc-800 border-b border-zinc-700">
-          <h1 className="text-xl font-bold">DICOM Viewer Grid</h1>
+          <h1 className="text-xl font-bold">DICOM Viewer</h1>
           <div className="flex space-x-2">
             <button
               onClick={handleAddViewer}

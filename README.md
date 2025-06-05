@@ -2,7 +2,10 @@
 
 A powerful and responsive **multi-panel DICOM viewer** built using **React**, **Tailwind CSS**, and the **Cornerstone DICOM rendering stack**. This project allows radiologists, researchers, or engineers to load, inspect, and interact with DICOM image series with rich tools like zooming, scrolling, inversion, panning, and a grid-based layout for side-by-side comparisons.
 
----
+## 🌐 Live Demo
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bac37078-0dfa-430a-b43b-597deda85ef1/deploy-status)](https://pacs-dicom-viewer.netlify.app/)
+
 
 ## 🚀 Features
 
